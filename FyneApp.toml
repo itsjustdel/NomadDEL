@@ -1,4 +1,5 @@
 [Details]
+  Icon = "Icon.png
   Name = "Nomad"
   ID = "com.fynelabs.nomad"
   Build = 1
