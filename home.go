@@ -34,7 +34,7 @@ var (
 func (n *nomad) autoCompleteEntry(homeContainer *fyne.Container) *xWidget.CompletionEntry {
 	results := []cities.City{}
 	entry := xWidget.NewCompletionEntry([]string{})
-	entry.SetPlaceHolder("ADD A PLACE PRIVATE!")
+	entry.SetPlaceHolder("ADD A PLACE PRIVATE UPDATED!")
 
 	entry.CustomCreate = func() fyne.CanvasObject {
 		city := widget.NewRichTextFromMarkdown("City Lowercase")
