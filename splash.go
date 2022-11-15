@@ -12,7 +12,7 @@ import (
 )
 
 func makeSplash() fyne.CanvasObject {
-	text := canvas.NewText("NOMAD", color.White)
+	text := canvas.NewText("NOMAD SELF UPDATED", color.White)
 	text.TextSize = 50
 	text.TextStyle = fyne.TextStyle{Italic: true, Bold: true}
 
