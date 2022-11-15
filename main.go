@@ -17,11 +17,9 @@ type nomad struct {
 
 func main() {
 
-	wawawaw
 	a := app.NewWithID("com.fynelabs.nomad")
 	w := a.NewWindow("Nomad")
 
-	// selfManage(a, w)
 	store := newCityStore(a.Preferences())
 	session := newUnsplashSession(a.Storage(), store)
 	ui := &nomad{main: w, store: store, session: session}
@@ -41,6 +39,7 @@ func main() {
 		setupSystray(deskApp, w, store)
 	}
 	go fadeSplash(splash)
+	selfManage(a, w)
 	w.ShowAndRun()
 }
 
