@@ -5,6 +5,7 @@ go 1.17
 require (
 	fyne.io/fyne/v2 v2.2.3
 	fyne.io/x/fyne v0.0.0-20220714170908-eb9ddd6f06fd
+	github.com/fynelabs/fyneselfupdate v0.1.0
 	github.com/hbagdi/go-unsplash v0.0.0-20210330151707-a7612e80fdd5
 	github.com/oliamb/cutter v0.2.2
 	github.com/stretchr/testify v1.7.2
@@ -20,6 +21,7 @@ require (
 	github.com/fyne-io/gl-js v0.0.0-20220119005834-d2da28d9ccfe // indirect
 	github.com/fyne-io/glfw-js v0.0.0-20220120001248-ee7290d23504 // indirect
 	github.com/fyne-io/image v0.0.0-20220602074514-4956b0afb3d2 // indirect
+	github.com/fynelabs/selfupdate v0.1.0
 	github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211213063430-748e38ca8aec // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
