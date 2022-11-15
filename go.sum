@@ -38,6 +38,7 @@ cloud.google.com/go/storage v1.8.0/go.mod h1:Wv1Oy7z6Yz3DshWRJFhqM/UCfaWIRTdp0RX
 cloud.google.com/go/storage v1.10.0/go.mod h1:FLPqc6j+Ki4BU591ie1oL6qBQGu2Bl/tZ9ullr3+Kg0=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 fyne.io/fyne/v2 v2.1.0/go.mod h1:c1vwI38Ebd0dAdxVa6H1Pj6/+cK1xtDy61+I31g+s14=
+fyne.io/fyne/v2 v2.1.4/go.mod h1:p+E/Dh+wPW8JwR2DVcsZ9iXgR9ZKde80+Y+40Is54AQ=
 fyne.io/fyne/v2 v2.2.3 h1:Umi3vVVW8XnWWPJmMkhIWQOMU/jxB1OqpWVUmjhODD0=
 fyne.io/fyne/v2 v2.2.3/go.mod h1:MBoGuHzLLSXdQOWFAwWhIhYTEMp33zqtGCReSWhaQTA=
 fyne.io/systray v1.10.1-0.20220621085403-9a2652634e93 h1:V2IC9t0Zj9Ur6qDbfhUuzVmIvXKFyxZXRJyigUvovs4=
@@ -96,6 +97,10 @@ github.com/fyne-io/glfw-js v0.0.0-20220120001248-ee7290d23504 h1:+31CdF/okdokeFN
 github.com/fyne-io/glfw-js v0.0.0-20220120001248-ee7290d23504/go.mod h1:gLRWYfYnMA9TONeppRSikMdXlHQ97xVsPojddUv3b/E=
 github.com/fyne-io/image v0.0.0-20220602074514-4956b0afb3d2 h1:hnLq+55b7Zh7/2IRzWCpiTcAvjv/P8ERF+N7+xXbZhk=
 github.com/fyne-io/image v0.0.0-20220602074514-4956b0afb3d2/go.mod h1:eO7W361vmlPOrykIg+Rsh1SZ3tQBaOsfzZhsIOb/Lm0=
+github.com/fynelabs/fyneselfupdate v0.1.0 h1:IAHSozfCu4AEtYd5NPvJ72fnchxSBBCGoqlID9YyhKw=
+github.com/fynelabs/fyneselfupdate v0.1.0/go.mod h1:GSgx/qDj7Zv0wHZDH9ki+l/kpWasJjdPS/x075GQSBs=
+github.com/fynelabs/selfupdate v0.0.0-20220603194016-1a68b05d3b4a h1:suP0TQn0P+KPQa3AUf/kaC6A2YKqOcyHtgSrfW8mV+8=
+github.com/fynelabs/selfupdate v0.0.0-20220603194016-1a68b05d3b4a/go.mod h1:n0XqnuiHUlOE3CuS1l1uVXvSlADxxleYWtqPwRYv5sI=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/go-gl/gl v0.0.0-20210813123233-e4099ee2221f/go.mod h1:wjpnOv6ONl2SuJSxqCPVaPZibGFdSci9HFocT9qtVYM=
 github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6 h1:zDw5v7qm4yH7N8C8uWd+8Ii9rROdgWxQuGoJ9WDXxfk=
@@ -105,6 +110,7 @@ github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20191125211704-12ad95a8df72/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20210410170116-ea3d685f79fb/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
+github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211024062804-40e447a793be/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211213063430-748e38ca8aec h1:3FLiRYO6PlQFDpUU7OEFlWgjGD1jnBIVSJ5SYRWk+9c=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20211213063430-748e38ca8aec/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-ole/go-ole v1.2.5/go.mod h1:pprOEPIfldk/42T2oK7lQ4v4JSDwmV0As9GaiUsvbm0=
@@ -312,7 +318,9 @@ github.com/tidwall/cities v0.1.0 h1:CVNkmMf7NEC9Bvokf5GoSsArHCKRMTgLuubRTHnH0mE=
 github.com/tidwall/cities v0.1.0/go.mod h1:lV/HDp2gCcRcHJWqgt6Di54GiDrTZwh1aG2ZUPNbqa4=
 github.com/urfave/cli/v2 v2.3.0/go.mod h1:LJmUH05zAU44vOAcrfzZQKsZbVcdbOG8rtL3/XcUArI=
 github.com/urfave/cli/v2 v2.4.0/go.mod h1:NX9W0zmTvedE5oDoOMs2RTC8RvdK98NTYZE5LbaEYPg=
+github.com/urfave/cli/v2 v2.8.1/go.mod h1:Z41J9TPoffeoqP0Iza0YbAhGvymRdZAd2uPmZ5JxRdY=
 github.com/wagslane/go-password-validator v0.3.0/go.mod h1:TI1XJ6T5fRdRnHqHt14pvy1tNVnrwe7m3/f1f2fDphQ=
+github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673/go.mod h1:N3UwUGtsrSj3ccvlPHLoLsHnpR27oXr4ZE984MbSER8=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
