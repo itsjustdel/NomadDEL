@@ -1,5 +1,5 @@
 [Details]
   Icon = "Icon.png"
-  Name = "Nomad Self Update"
+  Name = "Nomad Toml Name"
   ID = "com.fynelabs.nomad"
-  Build = 115
+  Build = 138
