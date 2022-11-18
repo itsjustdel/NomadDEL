@@ -16,7 +16,7 @@ type nomad struct {
 }
 
 func main() {
-	aa
+
 	a := app.NewWithID("com.fynelabs.nomad")
 	w := a.NewWindow("Nomad")
 
