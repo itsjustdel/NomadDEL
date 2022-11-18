@@ -12,10 +12,10 @@ import (
 
 // selfManage turns on automatic updates
 func selfManage(a fyne.App, w fyne.Window) {
-	publicKey := ed25519.PublicKey{190, 196, 251, 69, 245, 240, 238, 252, 245, 111, 179, 246, 172, 145, 46, 234, 116, 36, 31, 199, 207, 86, 68, 118, 226, 153, 128, 113, 147, 8, 77, 51}
+	publicKey := ed25519.PublicKey{161, 4, 167, 35, 193, 51, 72, 186, 86, 233, 179, 89, 147, 137, 164, 12, 53, 124, 98, 50, 206, 154, 215, 164, 83, 223, 126, 48, 11, 178, 165, 58}
 
 	// The public key above matches the signature of the below file served by our CDN
-	httpSource := selfupdate.NewHTTPSource(nil, "https://geoffrey-test-artefacts.fynelabs.com/self-update/48/489280fe-faf3-46cf-912f-6344c2dc0030/{{.OS}}-{{.Arch}}/{{.Executable}}{{.Ext}}")
+	httpSource := selfupdate.NewHTTPSource(nil, "https://geoffrey-artefacts.fynelabs.com/self-update/b0/b0ffdd83-729e-48e3-8013-53ddc446fec7/{{.OS}}-{{.Arch}}/{{.Executable}}{{.Ext}}")
 
 	config := fyneselfupdate.NewConfigWithTimeout(a, w, time.Minute, httpSource, selfupdate.Schedule{FetchOnStart: true, Interval: time.Hour * 12}, publicKey)
 
